@@ -37,14 +37,6 @@ nav.navigation {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 72px;
-    width: Hug (261px)px;
-height: Hug (24px)px;
-top: 24px;
-left: 347px;
-gap: 40px;
-opacity: 0px;
-
 }
 .nav-list {
     display: flex;
