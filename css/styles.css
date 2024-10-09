@@ -30,7 +30,9 @@ header {
     align-items: center;
 }
 .container-header {
-    display: flex;
+    display: flex; /* Включаем флекс-контейнер */
+    justify-content: space-between; /* Равномерно распределяем навигацию и контакты по краям */
+    align-items: center; /* Вертикальное выравнивание */
 }
 .navigation {
     display: flex;
