@@ -110,6 +110,15 @@ ul {
     padding: 0;
     margin: 0;
 }
+.contact-list-item {
+    margin-right: 20px; /* Увеличьте значение, если нужно больше отступа */
+}
+
+/* Чтобы убрать отступ у последнего элемента списка */
+.contacts-list li:last-child {
+    margin-right: 0; /* Убираем отступ у последнего элемента */
+}
+
 .logo_web, .logo_studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
