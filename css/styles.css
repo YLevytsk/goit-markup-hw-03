@@ -7,6 +7,41 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.container {
+    width: 1158px;
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-header {
+    display: flex;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.color {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    margin-right: 76px;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 76px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
 ul {
     list-style-type: none;} 
 .address {
@@ -81,13 +116,30 @@ text-align: center;
 color: #ffffff;
  line-height: 1.07;       
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .section_first {
     font-size: 56px; 
     line-height: 1.07; 
     text-align: center; 
     letter-spacing: 0.02em; 
     color: #ffffff;
+    height: 600px;
+    padding: 188px 0;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .section_first .button_hero {
     font-family: "Roboto", sans-serif; 
@@ -111,10 +163,14 @@ color: #ffffff;
         font-size: 20px;
         font-weight: 500;
         line-height: 24px;
-        letter-spacing: 0.02em;
         text-align: left;
-       color: #2e2f42;  
-    }
+       color: #2e2f42; 
+       text-align: center;
+       line-height: 1.2;
+       letter-spacing: 0.02em;
+       margin-bottom: 8px;
+   } 
+    
  .skills-text {
     font-family: Roboto;
     font-size: 16px;
@@ -123,7 +179,8 @@ color: #ffffff;
     letter-spacing: 0.02em;
     text-align: left;
     color:  #434455;
-    }
+}
+    
 
 .team-item-title {
     font-size: 20px;
@@ -160,7 +217,8 @@ color: #ffffff;
  }
  .section-third {
     background-color: #F4F4FD;
-}
+        padding: 120px 0;
+    }
 .our-team-li {
     background-color: #FFFFFF;
 }
