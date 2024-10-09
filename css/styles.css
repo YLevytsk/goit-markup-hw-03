@@ -7,6 +7,9 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+img {
+    display: block;
+}
 .container {
     width: 1158px;
     max-width: 100%;
