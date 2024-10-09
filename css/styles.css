@@ -29,6 +29,7 @@ img {
     justify-content: space-between;
     align-items: center;
     height: 72px;
+     flex-grow: 1;
 }
 .container-header {
     display: flex;
@@ -57,7 +58,8 @@ nav {
 }
 nav ul {
     display: flex;
-    margin-left: 76px;
+     justify-content: flex-end; /* Выравнивание меню в конец, если требуется */
+    margin-left: auto;
 }
 
 nav ul li {
