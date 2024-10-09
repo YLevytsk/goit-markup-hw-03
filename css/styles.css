@@ -24,6 +24,12 @@ img {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
 .container-header {
     display: flex;
 }
