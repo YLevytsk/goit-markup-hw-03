@@ -322,13 +322,14 @@ color: #ffffff;
    
 }
  .team-title {
-font-family: Roboto;
-font-size: 36px;
-font-weight: 700;
-line-height: 40px;
-letter-spacing: 0.02em;
-text-align: center;
-   color: #2e2f42
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 72px;
  }
  .section-third {
     text-align: center;
