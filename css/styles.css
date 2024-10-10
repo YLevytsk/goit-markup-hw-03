@@ -212,7 +212,8 @@ color: #ffffff;
     box-sizing: border-box;
 }
 .section_first h1 {
-    margin-bottom: 20px; /* Отступ под заголовком */
+    margin-bottom: 20px;
+     max-width: 496px;/* Отступ под заголовком */
 }
 
 
