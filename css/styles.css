@@ -249,7 +249,7 @@ color: #ffffff;
 }
 .skills-list {
     display: flex; 
-    justify-content: space-between; 
+    justify-content: center; /* Вирівнюємо елементи по центру */
     flex-wrap: wrap; 
     list-style: none;
     margin: 0;
