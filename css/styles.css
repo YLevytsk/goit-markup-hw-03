@@ -284,7 +284,6 @@ color: #ffffff;
     gap: 24px;
 }    
 .skills-list-item {
-    width: calc(25% - 20px);
     margin: 10px; 
     text-align: center;
     flex-basis: calc((100% - 3 * 24px) / 4); 
