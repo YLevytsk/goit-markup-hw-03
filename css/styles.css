@@ -130,10 +130,12 @@ ul {
 
 .logo_web {
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .logo_studio {
-    color: #2e2f42; 
+    color: #2e2f42;
+    margin-right: 76px; 
 }
 .logo_web, 
 .logo_studio, 
