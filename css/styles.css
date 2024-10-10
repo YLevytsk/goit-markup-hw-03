@@ -24,7 +24,7 @@ img {
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-nav.navigation {
+.nav.navigation {
     display: flex;
     align-items: center;
 }
