@@ -232,8 +232,8 @@ color: #ffffff;
     text-align: center;
     margin-top: 20px;
     min-width: 169px;
-     height: 56px;
-     border-radius: 4px;
+    height: 56px;
+    border-radius: 4px;
 }
 .section_first .button_hero:hover,
 .section_first .button_hero:focus {
