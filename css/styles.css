@@ -238,6 +238,10 @@ color: #ffffff;
     padding: 40px 0; /* Отступы для секции */
     background-color: #f4f4fd; /* Фон секции */
 }
+.section-second .skills-text {
+    text-align: left; /* Выровнять текст по левому краю */
+}
+
 .skills-list {
     display: flex; /* Делаем элементы списка флекс-элементами */
     justify-content: space-between; /* Равномерное распределение элементов по горизонтали */
