@@ -192,13 +192,19 @@ color: #ffffff;
     color: #ffffff;
     padding: 188px 0;
     background-color: #2e2f42;
+    width: 100%; /* Секция занимает всю ширину экрана */
+    box-sizing: border-box;
+}
+
+.section_first .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Используем всю доступную ширину */
-    max-width: 1158px; /* Ограничиваем максимальную ширину */
-    margin: 0 auto; /* Центрируем */
-    box-sizing: border-box;
+    max-width: 1158px; /* Ограничение ширины содержимого */
+    margin: 0 auto;
+    width: 100%; /* Контейнер занимает 100% от родителя */
+    padding: 0 15px; /* Внутренние отступы */
+    box-sizing: border-box; /* Учитываем отступы */
 }
 
 
