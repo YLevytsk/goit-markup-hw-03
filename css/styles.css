@@ -311,13 +311,12 @@ color: #ffffff;
    
 }
  .team-title {
-    font-family: "Roboto", sans-serif;
-    font-size: 36px;
-    font-weight: 700; 
-    line-height: 40px;
-    letter-spacing: 0.02em; 
-   line-height: 1.11;
-   text-transform: center;
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
    color: #2e2f42
  }
  .section-third {
