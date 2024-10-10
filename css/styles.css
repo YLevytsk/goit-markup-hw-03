@@ -25,7 +25,9 @@ img {
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
+    display: flex; /* Задаем флекс-контейнер */
 }
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
