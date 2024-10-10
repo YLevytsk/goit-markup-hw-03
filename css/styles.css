@@ -110,6 +110,7 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    gap: 40px;
 }
 .contact-list-item {
     margin-right: 20px; /* Увеличьте значение, если нужно больше отступа */
