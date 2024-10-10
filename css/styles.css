@@ -247,9 +247,8 @@ color: #ffffff;
 .section-second .skills-text {
     text-align: left; 
 }
-.skills-list {
-    display: flex; 
-    justify-content: center; /* Вирівнюємо елементи по центру */
+.skills-list { 
+    justify-content: center; 
     flex-wrap: wrap; 
     list-style: none;
     margin: 0;
