@@ -25,9 +25,7 @@ img {
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
-    display: flex; /* Задаем флекс-контейнер */
 }
-
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -61,7 +59,7 @@ img {
     color: #4D5AE5;
     margin-right: 76px;
 }
-.nav {
+nav {
     font-weight: 500;
     color: #2E2F42;
     display: flex;
@@ -130,12 +128,10 @@ ul {
 
 .logo_web {
     color: #4d5ae5;
-    margin-right: 76px;
 }
 
 .logo_studio {
-    color: #2e2f42;
-    margin-right: 76px; 
+    color: #2e2f42; 
 }
 .logo_web, 
 .logo_studio, 
