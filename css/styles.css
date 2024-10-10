@@ -46,7 +46,8 @@ img {
 .nav-list {
     display: flex;
     list-style: none;
-    margin-left: 20px; /* Отодвигаем меню от логотипа */
+    margin-left: 20px;
+    gap: 40px; /* Отодвигаем меню от логотипа */
 }
 
 .color {
