@@ -12,6 +12,8 @@ body {
     padding: 0;
 }
 img {
+    max-width: 100%;
+    height: auto;
     display: block;
 }
 .container {
@@ -62,8 +64,9 @@ nav {
 }
 nav ul {
     display: flex;
-     justify-content: flex-end; /* Выравнивание меню в конец, если требуется */
+    justify-content: flex-end;
     margin-left: auto;
+    max-width: 100%; /* Ограничиваем максимальную ширину */
 }
 
 nav ul li {
@@ -179,16 +182,22 @@ color: #ffffff;
     overflow: hidden;
 }
 .section_first {
-    font-size: 56px; 
-    line-height: 1.07; 
-    text-align: center; 
-    letter-spacing: 0.02em; 
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #ffffff;
-    height: 600px;
     padding: 188px 0;
+    background-color: #2e2f42;
+    display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%; /* Используем всю доступную ширину */
+    max-width: 1158px; /* Ограничиваем максимальную ширину */
+    margin: 0 auto; /* Центрируем */
+    box-sizing: border-box;
 }
+
 
 
 .section_first .button_hero {
