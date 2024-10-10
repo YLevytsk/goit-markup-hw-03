@@ -333,7 +333,8 @@ text-align: center;
  .section-third {
     text-align: center;
     background-color: #F4F4FD;
-        padding: 120px 0;
+    padding: 120px 0;
+    margin-bottom: 72px;   
     }
 .our-team-li {
     background-color: #FFFFFF;
