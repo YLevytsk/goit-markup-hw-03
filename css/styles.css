@@ -1,5 +1,5 @@
 body {
-    max-width: 100vw; /* Ограничение ширины страницы */
+    max-width: 100vw; 
     overflow-x: hidden;
     color: #434455;
     background-color: #FFFFFF;
@@ -21,7 +21,7 @@ img {
 }
 .container {
     width: 100%;
-    max-width: 1158px; /* Контейнер не будет шире этого значения */
+    max-width: 1158px; 
     padding: 0 15px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -34,9 +34,9 @@ img {
     align-items: center;
 }
 .container-header {
-    display: flex; /* Включаем флекс-контейнер */
-    justify-content: space-between; /* Равномерно распределяем навигацию и контакты по краям */
-    align-items: center; /* Вертикальное выравнивание */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
 }
 .navigation {
     display: flex;
@@ -47,7 +47,7 @@ img {
     display: flex;
     list-style: none;
     margin-left: 20px;
-    gap: 40px; /* Отодвигаем меню от логотипа */
+    gap: 40px; 
 }
 
 .color {
@@ -70,7 +70,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
-    max-width: 100%; /* Ограничиваем максимальную ширину */
+    max-width: 100%; 
 }
 
 nav ul li {
@@ -86,8 +86,8 @@ ul {
 }
 .address {
     font-style: normal; 
-    display: flex; /* Размещаем контакты в одну строку */
-    gap: 20px; /* Отступ между адресом и телефоном */
+    display: flex; 
+    gap: 20px; 
     margin-left: 40px;
 }
 .contact-link {
@@ -106,18 +106,18 @@ ul {
     padding: 24px 0;
 }
 .contacts-list {
-    display: flex; /* Размещаем элементы списка в одну строку */
+    display: flex; 
     list-style: none;
     padding: 0;
     margin: 0;
     gap: 40px;
 }
 .contact-list-item {
-    margin-right: 20px; /* Увеличьте значение, если нужно больше отступа */
+    margin-right: 20px; 
 }
-/* Чтобы убрать отступ у последнего элемента списка */
+
 .contacts-list li:last-child {
-    margin-right: 0; /* Убираем отступ у последнего элемента */
+    margin-right: 0;
 }
 
 .logo_web, .logo_studio {
@@ -237,16 +237,16 @@ color: #ffffff;
     background-color: #404BBF; 
 }
 .section_first {
-     background-color: #2e2f42
+     background-color: #2e2f42;
     } 
     .section-second {
     padding: 40px 0; 
-    padding: 120px 0; 
+    padding: 120px 0;
+    background-color: #FFFFFF;
 }
 .section-second .skills-text {
     text-align: left; 
 }
-
 .skills-list {
     display: flex; 
     justify-content: space-between; 
@@ -254,8 +254,7 @@ color: #ffffff;
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 24px;
-    
+    gap: 24px;    
 }
  .skills-title {
         font-family: Roboto;
@@ -267,10 +266,8 @@ color: #ffffff;
        text-align: center;
        line-height: 1.2;
        letter-spacing: 0.02em;
-       margin-bottom: 8px;
-      
-   } 
-    
+       margin-bottom: 8px;   
+   }  
  .skills-text {
     font-family: Roboto;
     font-size: 16px;
@@ -339,7 +336,7 @@ color: #ffffff;
     padding: 120px 0;   
     }
     .worker-name {
-    padding: 32px 0; /* Отступы сверху и снизу по 32px */
+    padding: 32px 0;
 }
 .our-team-li {
     background-color: #FFFFFF;
@@ -387,7 +384,7 @@ width: calc((100% - 48px) / 3);
 border-radius: 0px 0px 4px 4px;     
 }
 .portfolio-item {
-    margin-bottom: 48px; /* Отступ между элементами списка */
+    margin-bottom: 48px; 
 }
 .portfolio-item:nth-last-child(-n+3) {
     margin-bottom: 0;
@@ -418,8 +415,8 @@ footer .logo_web {
 }
 .logo_web, 
 .logo_studio {
-    display: inline-block; /* Додаємо блочні властивості для обох елементів */
-    margin-bottom: 16px; /* Відступ між посиланням та параграфом */
+    display: inline-block; 
+    margin-bottom: 16px;
 }
 
 span { 
