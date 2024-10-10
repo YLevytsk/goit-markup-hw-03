@@ -417,6 +417,11 @@ footer .logo_studio {
 footer .logo_web {
     color: #4d5ae5;
 }
+.logo_web, 
+.logo_studio {
+    display: inline-block; /* Додаємо блочні властивості для обох елементів */
+    margin-bottom: 16px; /* Відступ між посиланням та параграфом */
+}
 
 span { 
     color: #f4f4fd;
