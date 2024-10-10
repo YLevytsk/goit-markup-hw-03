@@ -230,7 +230,8 @@ color: #ffffff;
     cursor: pointer;
     border: none; /* Убираем границу */
     text-align: center; /* Текст по центру */
-    margin-top: 20px; /* Отступ сверху для кнопки */
+    margin-top: 20px;
+    min-width: 169px; /* Отступ сверху для кнопки */
 }
 .section_first .button_hero:hover,
 .section_first .button_hero:focus {
