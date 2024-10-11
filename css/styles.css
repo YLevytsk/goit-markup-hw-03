@@ -71,7 +71,9 @@ nav ul {
     margin-left: auto;
     max-width: 100%; 
 }
-
+h1,h2,h3,p {
+    margin: 0;
+}
 
 nav ul li:last-child {
     margin-right: 0;
