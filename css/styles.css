@@ -348,9 +348,7 @@ color: #ffffff;
     margin: 0;
     gap: 48px 24px;
 }
-.portfolio-item {
-    width: calc(33.33% - 20px); 
-}
+
 .main-text-section {
  font-family: "Roboto",sans-serif;
 font-size: 36px;
