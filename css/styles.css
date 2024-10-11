@@ -172,7 +172,8 @@ line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
 color: #ffffff;
- line-height: 1.07;       
+ line-height: 1.07;
+ margin-bottom:  48px;       
 }
 .visually-hidden {
     position: absolute;
